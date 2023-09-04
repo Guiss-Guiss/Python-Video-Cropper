@@ -1,7 +1,4 @@
-The provided code creates a graphical interface to crop video files.
-It utilizes Python libraries like OpenCV for video processing and tkinter for GUI elements.
-Users select an input video file and specify an output file for the cropped result.
-The interface lets users preview frames and select one for cropping using a slider.
-Upon clicking "Select," a window allows users to define a crop area while maintaining a chosen aspect ratio.
-The selected frame, crop dimensions, and total frames are used to display a progress bar during cropping.
-The cropped video, with preserved audio, is then generated.
+Video Cropper is a Python script that allows you to crop a video. mp4 files are supported. Audio is also supported.
+The script uses OpenCV to read the video, tkinter for the GUI, Pillow to convert the photo to PhotoImage object
+and MoviePy to add audio to the cropped video. The script allows you to select the crop area by drawing a rectangle on the video.
+You can also select the aspect ratio of the crop area.

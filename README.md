@@ -36,7 +36,6 @@ pip install opencv-python pillow moviepy
 - Frame-by-frame processing
 - Non-destructive editing
 - Original audio preservation
-- Real-time preview
 
 ---
 
@@ -74,7 +73,6 @@ pip install opencv-python pillow moviepy
 - Traitement image par image
 - Édition non destructive
 - Conservation de l'audio original
-- Aperçu en temps réel
 
 ## Components | Composants
 ```

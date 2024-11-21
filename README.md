@@ -1,6 +1,8 @@
-# Video Cropper
+# Video Cropper | Recadreur Vidéo
 
-A Python script for cropping videos while preserving audio with an intuitive GUI interface.
+[English](#english) | [Français](#français)
+
+# English
 
 ## Features
 - 🎥 MP4 video support
@@ -30,26 +32,61 @@ pip install opencv-python pillow moviepy
 4. Choose aspect ratio (optional)
 5. Process video
 
-## Key Components
-- OpenCV: Video frame processing
-- tkinter: GUI interface
-- Pillow: Image conversion
-- MoviePy: Audio handling
-
-## Supported Features
-- MP4 video format
-- Original audio preservation
-- Custom crop dimensions
-- Aspect ratio presets
-- Real-time preview
-
-## Technical Implementation
+## Technical Details
 - Frame-by-frame processing
 - Non-destructive editing
-- Memory-efficient processing
-- Progress tracking
+- Original audio preservation
+- Real-time preview
 
-## Output
-- Cropped MP4 with audio
-- Original quality preservation
-- Maintains video metadata
+---
+
+# Français
+
+## Fonctionnalités
+- 🎥 Support des fichiers MP4
+- 🔊 Préservation de l'audio
+- 🖱️ Sélection interactive de la zone de recadrage
+- 📐 Ratios d'aspect personnalisables
+- 👆 Recadrage par dessin
+
+## Dépendances
+```python
+opencv-python
+tkinter
+Pillow
+moviepy
+```
+
+## Installation
+```bash
+pip install opencv-python pillow moviepy
+```
+*Note: tkinter est généralement inclus avec Python*
+
+## Utilisation
+1. Lancer le script
+2. Sélectionner la vidéo
+3. Dessiner un rectangle pour la zone de recadrage
+4. Choisir le ratio d'aspect (optionnel)
+5. Traiter la vidéo
+
+## Détails Techniques
+- Traitement image par image
+- Édition non destructive
+- Conservation de l'audio original
+- Aperçu en temps réel
+
+## Components | Composants
+```
+OpenCV: Video processing | Traitement vidéo
+tkinter: GUI interface | Interface graphique
+Pillow: Image conversion | Conversion d'image
+MoviePy: Audio handling | Gestion audio
+```
+
+## Support
+- 📧 Report issues on GitHub
+- 📧 Signaler des problèmes sur GitHub
+
+## License | Licence
+MIT License | Licence MIT
